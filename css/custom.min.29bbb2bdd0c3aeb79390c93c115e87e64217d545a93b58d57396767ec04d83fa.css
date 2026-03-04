@@ -1,0 +1,1 @@
+.comic-thumb-link{transition:transform .3s ease,box-shadow .3s ease;display:block}.comic-thumb-link:hover{transform:scale(1.05);z-index:10;text-decoration:none!important}.comic-thumb-link:hover img{box-shadow:0 10px 20px rgba(0,0,0,.2)!important;border-color:#007bff}

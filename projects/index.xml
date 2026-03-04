@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ali Shakiba</title>
+    <link>http://localhost:1313/projects/</link>
+      <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ali Shakiba</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 26 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_da05098ef60dc2e7.png</url>
+      <title>Ali Shakiba</title>
+      <link>http://localhost:1313/projects/</link>
+    </image>
+    
+    <item>
+      <title>The Developer AI Journal: Bridging the Pedagogical Gap in GenAI</title>
+      <link>http://localhost:1313/projects/beyond-declaration/</link>
+      <pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/beyond-declaration/</guid>
+      <description>&lt;h2 id=&#34;project-overview&#34;&gt;Project Overview&lt;/h2&gt;
+&lt;p&gt;As Generative AI becomes a ubiquitous co-pilot in software development, the challenge for educators shifts from preventing its use to &lt;strong&gt;integrating it professionally&lt;/strong&gt;. The &lt;em&gt;Developer AI Journal&lt;/em&gt; (or Prompt Logger) is a research-led tool designed at the &lt;strong&gt;University of Sydney&lt;/strong&gt; to transform AI usage from a hidden shortcut into a transparent engineering artifact.&lt;/p&gt;
+&lt;p&gt;The project aims to answer a critical research question: &lt;em&gt;How can we foster &amp;lsquo;Human-in-the-loop&amp;rsquo; accountability while using LLMs in project-based learning?&lt;/em&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;key-capabilities&#34;&gt;Key Capabilities&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Multi-Platform Ingestion:&lt;/strong&gt; Automated fetching and parsing of shared chat links from Gemini, and Microsoft Copilot to ensure high data fidelity.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reflective Taxonomy:&lt;/strong&gt; A structured framework requiring students to categorise AI accuracy and justify their manual interventions.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Professional Audit Trail:&lt;/strong&gt; Generates version-controlled logs that serve as &amp;lsquo;Evidence of Work&amp;rsquo; for group projects and individual assessments.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pedagogical Analytics:&lt;/strong&gt; Real-time monitoring of student &amp;lsquo;Evaluation Confidence&amp;rsquo; vs. &amp;lsquo;AI Accuracy&amp;rsquo; to detect skill gaps and over-reliance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;the-tool-in-action&#34;&gt;The Tool in Action&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;http://localhost:1313/media/prompt-logger-ui.png&#34; alt=&#34;Prompt Logger Screenshot&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+&lt;em&gt;Figure 1: The UI facilitating the transition from raw AI output to human-led verification.&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;engineering-ethics--narrative&#34;&gt;Engineering Ethics &amp;amp; Narrative&lt;/h3&gt;
+&lt;p&gt;To introduce these concepts to students, we utilise a series of case studies and visual narratives. These stories highlight the &amp;ldquo;Accountability Gap&amp;rdquo; and the long-term career risks of &amp;ldquo;Cognitive Offloading.&amp;rdquo;&lt;/p&gt;
+&lt;!-- * [**🎨 Prompt Operator**](https://alishakiba.github.io/ai-journal/assets/pdfs/PromptOperator.pdf)
+* [**🎨 Show Your Work**](https://alishakiba.github.io/ai-journal/assets/pdfs/ShowYourWork.pdf)
+* [**🎨 Rushed Release**](https://alishakiba.github.io/ai-journal/assets/pdfs/RushedRelease.pdf)
+* [**🎨 Skill Desert**](https://alishakiba.github.io/ai-journal/assets/pdfs/SkillDesert.pdf) --&gt;
+&lt;style&gt;
+  .comic-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 15px;
+    margin: 2rem 0;
+  }
+  .comic-item {
+    flex: 1;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  .comic-item:hover {
+    transform: scale(1.05);
+    z-index: 10;
+  }
+  .comic-item img {
+    width: 100%;
+    aspect-ratio: 3/4;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  .comic-title {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none !important;
+  }
+&lt;/style&gt;
+&lt;div class=&#34;comic-grid&#34;&gt;
+  &lt;div class=&#34;comic-item&#34;&gt;
+    &lt;a href=&#34;https://alishakiba.github.io/ai-journal/assets/pdfs/PromptOperator.pdf&#34; target=&#34;_blank&#34;&gt;
+      &lt;img src=&#34;http://localhost:1313/media/comics/thumb-prompt-operator.jpg&#34; alt=&#34;Prompt Operator&#34;&gt;
+      &lt;span class=&#34;comic-title&#34;&gt;Prompt Operator&lt;/span&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;comic-item&#34;&gt;
+    &lt;a href=&#34;https://alishakiba.github.io/ai-journal/assets/pdfs/ShowYourWork.pdf&#34; target=&#34;_blank&#34;&gt;
+      &lt;img src=&#34;http://localhost:1313/media/comics/thumb-show-work.jpg&#34; alt=&#34;Show Your Work&#34;&gt;
+      &lt;span class=&#34;comic-title&#34;&gt;Show Your Work&lt;/span&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;comic-item&#34;&gt;
+    &lt;a href=&#34;https://alishakiba.github.io/ai-journal/assets/pdfs/RushedRelease.pdf&#34; target=&#34;_blank&#34;&gt;
+      &lt;img src=&#34;http://localhost:1313/media/comics/thumb-rushed-release.jpg&#34; alt=&#34;Rushed Release&#34;&gt;
+      &lt;span class=&#34;comic-title&#34;&gt;Rushed Release&lt;/span&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;comic-item&#34;&gt;
+    &lt;a href=&#34;https://alishakiba.github.io/ai-journal/assets/pdfs/SkillDesert.pdf&#34; target=&#34;_blank&#34;&gt;
+      &lt;img src=&#34;http://localhost:1313/media/comics/thumb-skill-desert.jpg&#34; alt=&#34;Skill Desert&#34;&gt;
+      &lt;span class=&#34;comic-title&#34;&gt;Skill Desert&lt;/span&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;research--teaching-impact&#34;&gt;Research &amp;amp; Teaching Impact&lt;/h2&gt;
+&lt;p&gt;Currently deployed in &lt;strong&gt;ELEC1005 (Introduction to Software Engineering)&lt;/strong&gt;, this tool provides the telemetry needed for longitudinal studies on student personas and learning trajectories in the age of AI.&lt;/p&gt;
+
+
+
+  
+  &lt;blockquote class=&#34;border-l-4 border-neutral-300 dark:border-neutral-600 pl-4 italic text-neutral-600 dark:text-neutral-400 my-6&#34;&gt;
+    &lt;p&gt;The goal is to move students from being &amp;lsquo;Passive Consumers&amp;rsquo; of AI to &amp;lsquo;Proactive Regulators&amp;rsquo; of the technology they deploy.&lt;/p&gt;
+
+  &lt;/blockquote&gt;
+
+&lt;hr&gt;
+&lt;!-- ## Collaborations
+
+[**Contact Ali**](mailto:ali.shakiba@sydney.edu.au) --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
